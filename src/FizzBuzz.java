@@ -13,4 +13,10 @@ public class FizzBuzz {
 
         return resultado;
     }
+
+    public void imprimirAte(final int limite) {
+        for (int i = 1; i <= limite; i++) {
+            System.out.println(fizzBuzz(i));
+        }
+    }
 }
